@@ -1,0 +1,139 @@
+/* Stylesheet for navigation bar */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #e9edf8;
+  color: rgb(75, 75, 75);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(75, 75, 75);
+}
+
+.navbar {
+  position: fixed;
+  margin-bottom: 20px;
+  padding: 20px;
+  z-index: 100;
+  background-color: #f4fff4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  min-height: 100%;
+  width: 1128px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 5px;
+}
+
+.logo a img {
+  width: 35px;
+  height: 35px;
+}
+
+.searchbar {
+  width: 100%;
+}
+
+.nav-left {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#Searchbar {
+  background-image: url("Images/magnifying-glass.png");
+  background-repeat: no-repeat;
+  background-position: left 16px top 10px;
+  background-size: 15px;
+  width: 90%;
+  padding: 0px 40px;
+  border: none;
+  box-sizing: border-box;
+  background-color: #e0e9ec;
+  border-radius: 20px;
+  height: 34px;
+}
+
+.nav-left {
+  padding: 0px 5px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-png {
+  width: 22px;
+  height: 22px;
+}
+
+#profile {
+  border-radius: 50%;
+}
+
+.nav-right ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-right ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0 15px;
+  border-bottom: 2px solid white;
+}
+
+.nav-right ul li a {
+  display: flex;
+  margin-left: 2px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.nav-right ul li a span {
+  color: #434343;
+}
+
+.nav-right ul li:hover {
+  color: black;
+  border-bottom: 2px solid black;
+}
+
+#business-border {
+  padding: 0px 8px;
+  border-left: 1px solid grey;
+}
+
+#Premium-link a span {
+  max-width: 100px;
+  text-align: center;
+  letter-spacing: -0.4px;
+  color: rgb(137, 89, 43);
+  text-decoration: underline;
+}

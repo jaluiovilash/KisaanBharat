@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.barlow-semi condensed-extralight {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 120;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Barlow Semi Condensed";
+}
+
+body {
+    background-color: whitesmoke;
+    color: #000000;
+}
+
+nav {
+    background-color: #f4fff4;
+    color: rgb(0, 0, 0);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 80px;
+    color: rgb(0, 0, 0);
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    margin: 8px 60px; 
+    text-size-adjust: 100%;
+    font-size: 1.5rem;
+}
+
+#character{
+    color: orange;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+#logo{
+    text-decoration: none;
+    color: green;
+}
+
+#title{
+    font-size: 1.8rem;
+}
+
+
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li img{
+    width: 23px;
+    margin: 0 70px;
+}

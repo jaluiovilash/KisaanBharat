@@ -1,0 +1,137 @@
+/* --------------------Responsiveness css start---------------------- */
+
+
+@media only screen and (max-width:990px) {
+    .container0 {
+        padding: 0 15px;
+    }
+
+    .sidebar {
+        min-width: 240px;
+    }
+
+    .main-content {
+        flex-basis: 70%;
+        margin: 0 0 0 20px;
+    }
+
+    .logo {
+        margin-left: 8px;
+    }
+
+    #Searchbar {
+        width: 50%;
+        background-color: #e0e9ec;
+        padding: 0 15px;
+        background-position: left 5px top 5px;
+        background-size: 25px;
+    }
+
+    #Searchbar::placeholder {
+        color: transparent;
+    }
+
+    .logo {
+        margin-left: 8px;
+    }
+
+    #business-border {
+        display: none;
+    }
+
+    #Premium-link {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width:810px) {
+    #Searchbar {
+        padding: 0 15px;
+        background-position: left 5px top 5px;
+        background-size: 25px;
+        background-color: transparent;
+    }
+
+    .container {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .sidebar{
+        min-width: none;
+        margin: unset;
+        margin-bottom: 24px;
+    }
+    
+    .main-content {
+        margin: unset;
+        max-width: unset;
+        padding: unset;
+    }
+    
+    .nav-container {
+        min-width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
+        width: unset;
+    }
+
+    .nav-right ul li {
+        min-width: 40px;
+    }
+
+    .logo {
+        margin-left: 10px;
+    }
+
+    .nav-right span {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width:600px) {
+    .container {
+        width: unset;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: unset;
+        margin-right: unset;
+    }
+
+    .invite{
+        flex-direction: column;
+    }
+    .profile{
+        justify-content: unset;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media only screen and (max-width:330px) {
+    .nav-right ul li {
+        min-width: 30px;
+    }
+
+    .menu-png {
+        width: 20px;
+        height: 20px;
+    }
+
+    .searchbar {
+        width: 32px;
+    }
+
+    .logo {
+        margin-left: 0;
+    }
+    .response button{
+        padding: 10px 20px;
+    }
+
+}

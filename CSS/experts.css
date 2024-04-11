@@ -1,0 +1,164 @@
+.container0 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.container {
+    min-width: 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ------------sdiebar-------------- */
+
+.sidebar {
+    background-color: #e9edf8;
+    margin: 0 20px;
+    padding: 0 10px;
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.connect-experts{
+    background-color: white;
+    border-radius: 8px;
+}
+
+.heading {
+    margin: 0px 12px;
+    margin-top: 15px;
+}
+
+.heading h1 {
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.reference-links {
+    padding: 5px 20px;
+    border-bottom: 2px solid rgb(226, 226, 226);
+}
+
+.reference-links ul {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.reference-links ul li {
+    margin: 15px 0;
+}
+
+.reference-links ul li a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* -----------------Footer------------------ */
+
+.footer {
+    color: rgb(112, 112, 112);
+    border-top: 2px solid rgb(226, 226, 226);
+    text-align: center;
+    margin-top: 8px;
+    line-height: 22px;
+    font-size: 12px;
+    padding: 0 15px;
+    line-height: 2.3em;
+}
+
+.useful-links {
+    padding: 15px;
+}
+
+.useful-links span {
+    justify-items: center;
+    padding: 6px 10px;
+}
+
+.useful-links span:hover{
+    text-decoration: underline;
+}
+
+.footer-tag {
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+/* -----------------main content-------------------------------- */
+
+.main-content {
+    flex-basis: 70%;
+    margin-left: 24px;
+}
+
+.invitations {
+    border-radius: 8px;
+    background-color: white;
+    padding: 8px 20px;
+    margin-bottom: 24px;
+}
+
+.invite {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.profile img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.profile-user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-user h1 {
+    font-size: 18px;
+}
+
+.profile-user span {
+    font-size: 14px;
+}
+
+.response {
+    display: flex;
+    align-items: center;
+}
+
+.response button {
+    padding: 10px 30px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.accept {
+    background-color: rgb(55, 108, 255);
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.barlow-semi condensed-extralight {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 120;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Barlow Semi Condensed";
+}
+
+body {
+    background-color: white;
+    color: #1d1c1c;
+}
+
+/* header */
+
+.progress-bar-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #f07326;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: green;
+    width: 0;
+    transition: width 0.2s;
+}
+
+nav {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f4fff4;
+    color: rgb(0, 0, 0);
+}
+
+nav ul.top {
+    background: transparent;
+    overflow: visible;
+    display: flex;
+    padding: 12px 23px;
+    list-style: none;
+    justify-content: space-around;
+}
+
+#hash {
+    color: rgb(224, 146, 0);
+    font-weight: 550;
+}
+
+.brand {
+    align-self: center;
+}
+
+nav ul.top .brand a {
+    font-size: 1.6rem;
+    color: #2E7D32;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+nav ul.top .signin {
+    display: flex;
+}
+
+nav ul li .login-button {
+    background-color: #4CAF50;
+    color: white;
+    display: inline-block;
+    margin: 0px 2px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 16px;
+}
+
+nav ul li .register-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0px 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 16px;
+}
+
+
+nav ul.bottom {
+    padding: 7px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    font-weight: 450;
+    font-size: 1.1rem;
+}
+
+nav ul.bottom a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul.bottom a:hover {
+    color: #44b553;
+}
+
+h2 {
+    font-weight: normal;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #3e8e41;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.techniques,
+.tools,
+.resources {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.techniques h2,
+.tools h2,
+.resources h2 {
+    margin-bottom: 1rem;
+}
+
+.techniques li,
+.tools li,
+.resources li {
+    margin-bottom: 1rem;
+}
+
+.techniques a,
+.tools a,
+.resources a {
+    display: block;
+    font-size: 1.6rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .techniques,
+    .tools,
+    .resources {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+
+
+    h2 {
+        font-size: 1.2rem;
+    }
+}
+
+
+.text-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: black;
+    padding: 1rem;
+    text-align: center;
+}
+
+.text-overlay h1 {
+    margin-bottom: 19rem;
+    text-align: center;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 3rem;
+    padding: 2rem;
+    color: #fff;
+
+}
+
+.intro-kisan p {
+    font-style: oblique;
+    font-size: 1.5rem;
+
+}
+
+.intro-kisan {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.intro-kisan img {
+    width: 99vw;
+    height: 40vw;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+
+
+.intro-kisan p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.intro-kisan::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.techniques img {
+    width: 45vw;
+    height: 48vw;
+    object-fit: cover;
+}
+
+.more a {
+    font-size: 1rem;
+    color: #1d1c1c;
+}
+
+.resources img {
+    width: 53vw;
+    height: 48vw;
+    object-fit: cover;
+}
+
+
+
+
+.chatbot-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #8fbf9f;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.2s ease-out;
+}
+
+.chatbot-button a {
+    color: black;
+    text-decoration: none;
+}
+
+.chatbot-button:hover {
+    transform: translateY(-5px);
+}
+
+/* footer */
+
+footer {
+    background-color: #f4fff4;
+}
+
+.footer {
+    display: flex;
+    padding: 30px 80px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li {
+    margin: 8px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer>div {
+    width: 223px;
+}
+
+.firstfooter {
+    font-family: Inconsolata;
+}
+
+#headings {
+    color: black;
+    font-weight: 600;
+}
+
+#headings:hover {
+    color: green;
+    font-weight: 600;
+}
+
+.brand-name {
+    text-align: center;
+    color: green;
+    padding: 12px 0;
+}
+
+.rightsfooter {
+    text-align: center;
+    color: grey;
+    padding: 12px 0;
+}

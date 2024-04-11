@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.barlow-semi condensed-extralight {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 120;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Barlow Semi Condensed";
+}
+
+body {
+    background-color: white;
+    color: #1d1c1c;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+main {
+    min-height: 80rem;
+}
+
+.progress-bar-wrapper {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #f07326;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: green;
+    width: 0;
+    transition: width 0.2s;
+}
+
+nav {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f4fff4;
+    color: rgb(0, 0, 0);
+}
+
+nav ul.top {
+    overflow: visible;
+    display: flex;
+    padding: 12px 23px;
+    list-style: none;
+    justify-content: space-around;
+}
+
+#hash {
+    color: rgb(224, 146, 0);
+    font-weight: 550;
+}
+
+.brand {
+    align-self: center;
+}
+
+nav ul.top .brand a {
+    font-size: 1.6rem;
+    color: #2E7D32;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+nav ul.top .signin {
+    display: flex;
+}
+
+nav ul li .login-button {
+    background-color: #4CAF50;
+    color: white;
+    display: inline-block;
+    margin: 0px 2px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 16px;
+}
+
+nav ul li .register-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0px 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 16px;
+}
+
+
+nav ul.bottom {
+    padding: 7px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    font-weight: 450;
+    font-size: 1.1rem;
+}
+
+nav ul.bottom a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul.bottom a:hover {
+    color: #44b553;
+}
+
+
+.firstsection {
+    height: 30vh;
+}
+
+.intro-container {
+    background-color: #f4fff4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 30px;
+    margin-top: 160px;
+}
+
+.intro-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #333;
+    letter-spacing: 1px;
+}
+
+.intro-title:hover {
+    color: green;
+}
+
+.intro-content {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    color: #000000;
+    background-color: #f4fff4;
+}
+
+
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 1.8rem;
+    margin: 25px;
+    text-align: center;
+}
+
+.intro-community {
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+}
+
+.intro-community .left-section {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.intro-community .left-section img {
+    width: 500px;
+    height: auto;
+}
+
+.intro-community .right-section {
+    background-color: #f4fff4;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+
+#title-name {
+    font-size: 1.2rem;
+    padding: 12px 0;
+}
+
+h2 a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+h2 a:hover {
+    color: green;
+}
+
+
+
+
+
+
+
+
+
+
+.intro-market {
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+}
+
+.intro-market .left-section {
+    background-color: #f4fff4;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-right: 35px;
+}
+
+
+.intro-market .right-section {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.intro-market .right-section img {
+    width: 500px;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+.chatbot-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #8fbf9f;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.2s ease-out;
+}
+
+.chatbot-button a {
+    color: black;
+    text-decoration: none;
+}
+
+.chatbot-button:hover {
+    transform: translateY(-5px);
+}
+
+.scroll-to-top {
+    all: unset;
+    position: fixed;
+    bottom: 100px;
+    right: 26px;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 30%;
+    background-color: #8fbf9f;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.2s;
+    transition: transform 0.2s ease-out;
+
+}
+
+.scroll-to-top:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+.scroll-to-top:hover,
+.scroll-to-top:active {
+    transform: translateY(-5px);
+
+}
+
+.scroll-to-top.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+#button-top{
+    position: relative;
+    bottom: 10px;
+
+}
+
+footer {
+    background-color: #f4fff4;
+}
+
+.footer {
+    display: flex;
+    padding: 30px 80px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li {
+    margin: 8px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: black;
+}
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+.footer>div {
+    width: 223px;
+}
+
+.firstfooter {
+    font-family: Inconsolata;
+}
+
+#headings {
+    color: black;
+    font-weight: 600;
+}
+
+#headings:hover {
+    color: green;
+    font-weight: 600;
+}
+
+.brand-name {
+    text-align: center;
+    color: green;
+    padding: 12px 0;
+}
+
+.rightsfooter {
+    text-align: center;
+    color: grey;
+    padding: 12px 0;
+}
