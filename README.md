@@ -1,8 +1,8 @@
 KisaanBharat
-Welcome to KisaanBharat – your comprehensive online platform connecting Indian farmers, agricultural enthusiasts, and industry stakeholders!
+-Welcome to KisaanBharat – your comprehensive online platform connecting Indian farmers, agricultural enthusiasts, and industry stakeholders!
 
 Overview
-KisaanBharat is designed to revolutionize the Indian agricultural landscape by providing a one-stop solution for knowledge sharing, idea exchange, and collaboration. Whether you're a seasoned farmer, a curious enthusiast, or an industry expert, KisaanBharat offers valuable resources, insights, and networking opportunities to empower you in your agricultural journey.
+-KisaanBharat is designed to revolutionize the Indian agricultural landscape by providing a one-stop solution for knowledge sharing, idea exchange, and collaboration. Whether you're a seasoned farmer, a curious enthusiast, or an industry expert, KisaanBharat offers valuable resources, insights, and networking opportunities to empower you in your agricultural journey.
 
 Features
 - User-Friendly Interface: Navigate seamlessly through our intuitive platform designed with your convenience in mind.
@@ -32,7 +32,7 @@ Differentiation
 - Continuous Improvement: Committed to evolving based on user feedback and emerging trends in agriculture.
 
 Get Involved
-Join the KisaanBharat community today and be a part of the agricultural revolution! Whether you're here to learn, share, or collaborate, there's a place for you in our growing community.
+-Join the KisaanBharat community today and be a part of the agricultural revolution! Whether you're here to learn, share, or collaborate, there's a place for you in our growing community.
 
 Getting Started
-To get started with KisaanBharat and create an account. Explore our features, engage with the community, and start your journey towards agricultural excellence!
+-To get started with KisaanBharat and create an account. Explore our features, engage with the community, and start your journey towards agricultural excellence!
