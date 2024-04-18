@@ -58,6 +58,7 @@ nav ul.top {
     justify-content: space-around;
 }
 
+
 #hash {
     color: rgb(224, 146, 0);
     font-weight: 550;
@@ -125,7 +126,7 @@ nav ul.bottom a {
     color: black;
 }
 
-nav ul.bottom a:hover{
+nav ul.bottom a:hover {
     color: #44b553;
 }
 
@@ -147,7 +148,7 @@ nav ul.bottom a:hover{
 
 
 .page-content {
-    max-width: 950px;
+    max-width: 1300px;
     margin: auto;
     text-align: center;
     margin-top: 12rem;
