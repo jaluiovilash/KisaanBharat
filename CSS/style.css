@@ -346,6 +346,7 @@ h2 a {
     text-decoration: none;
     color: black;
     text-align: center;
+    font-size: 1.8rem;
 }
 
 h2 a:hover {
@@ -393,6 +394,7 @@ h2 a:hover {
     margin: 100px 20px;
     width: 400px;
     height: 433px;
+    text-align: center;
 }
 
 .shiksha {
@@ -403,6 +405,7 @@ h2 a:hover {
     margin: 100px 20px;
     width: 400px;
     height: 433px;
+    text-align: center;
 
 }
 
@@ -414,6 +417,7 @@ h2 a:hover {
     margin: 100px 20px;
     width: 400px;
     height: 433px;
+    text-align: center;
 
 }
 
